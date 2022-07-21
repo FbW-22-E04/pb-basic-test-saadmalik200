@@ -13,9 +13,9 @@ function nameOfCity(string) {
   }
 }
 
-nameOfCity("New York"); //➞ 'New York'
-nameOfCity("newark"); // ➞ 'newark'
-nameOfCity("London"); //➞ 'The city name does not begin with Los or New'
+// nameOfCity("New York"); //➞ 'New York'
+// nameOfCity("newark"); // ➞ 'newark'
+// nameOfCity("London"); //➞ 'The city name does not begin with Los or New'
 
 console.log(nameOfCity("New York"));
 console.log(nameOfCity("newark"));
@@ -33,9 +33,9 @@ function isDivisible(integer) {
   }
 }
 
-isDivisible(1);
-isDivisible(1000);
-isDivisible(100);
+// isDivisible(1);
+// isDivisible(1000);
+// isDivisible(100);
 
 console.log(isDivisible(1));
 console.log(isDivisible(1000));
@@ -53,7 +53,7 @@ function isRaining(parameter) {
   return weatherCheck;
 }
 
-isRaining(true);
+// isRaining(true);
 console.log(isRaining(false));
 
 console.log("------------------------------------");
@@ -72,7 +72,7 @@ function geometricalSequence() {
   return string;
 }
 
-geometricalSequence(); //➞ '1 2 4 8 16 32 64 128 256'
+// geometricalSequence(); //➞ '1 2 4 8 16 32 64 128 256'
 
 console.log(geometricalSequence());
 
@@ -92,7 +92,7 @@ function multiplesOfThree() {
   return result;
 }
 
-multiplesOfThree();
+// multiplesOfThree();
 console.log(multiplesOfThree());
 
 console.log("------------------------------------");
@@ -103,8 +103,8 @@ function powerOf(integer) {
   return Math.pow(integer, integer);
 }
 
-powerOf(3);
-powerOf(4);
+// powerOf(3);
+// powerOf(4);
 
 console.log(powerOf(3));
 console.log(powerOf(4));
@@ -124,9 +124,9 @@ function vowelCount(string) {
   return counter;
 }
 
-vowelCount("hello");
-vowelCount("test");
-vowelCount("fbw");
+// vowelCount("hello");
+// vowelCount("test");
+// vowelCount("fbw");
 
 console.log(vowelCount("hello"));
 console.log(vowelCount("test"));
